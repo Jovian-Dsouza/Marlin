@@ -1,0 +1,32 @@
+echo:Marlin 1.1.9
+echo: Last Updated: 2018-08-01 | Author: (JoviTech, 14 April 2020)
+echo:Compiled: Apr 15 2020
+echo: Free Memory: 3654  PlannerBufferBytes: 1488
+echo:V56 stored settings retrieved (656 bytes; crc 31242)
+echo:  G21    ; (mm)
+echo:  M149 C ; Units in Celsius
+echo:Filament settings: Disabled
+echo:  M200 D1.75
+echo:  M200 D0
+echo:Steps per unit:
+echo:  M92 X100.00 Y81.07 Z4136.37 E145.71
+echo:Maximum feedrates (units/s):
+echo:  M203 X180.00 Y180.00 Z2.00 E25.00
+echo:Maximum Acceleration (units/s2):
+echo:  M201 X6000 Y3000 Z50 E1000
+echo:Acceleration (units/s2): P<print_accel> R<retract_accel> T<travel_accel>
+echo:  M204 P3000.00 R3000.00 T3000.00
+echo:Advanced: Q<min_segment_time_us> S<min_feedrate> T<min_travel_feedrate> X<max_x_jerk> Y<max_y_jerk> Z<max_z_jerk> E<max_e_jerk>
+echo:  M205 Q20000 S0.00 T0.00 X15.00 Y15.00 Z0.40 E2.00
+echo:Home offset:
+echo:  M206 X0.00 Y0.00 Z0.00
+echo:Auto Bed Leveling:
+echo:  M420 S0
+echo:Material heatup parameters:
+echo:  M145 S0 H210 B60 F0
+echo:  M145 S1 H220 B100 F0
+echo:PID settings:
+echo:  M301 P22.29 I1.60 D77.60
+echo:  M304 P816.52 I160.75 D1036.88
+echo:Z-Probe Offset (mm):
+echo:  M851 Z1.40
