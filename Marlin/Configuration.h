@@ -105,9 +105,21 @@
 #define SERIAL_PORT 0
 
 /**
- * Serial Port Baud Rate
- * This is the default communication speed for all serial ports.
- * Set the baud rate defaults for additional serial ports below.
+ * Select a secondary serial port on the board to use for communication with the host.
+ * :[-1, 0, 1, 2, 3, 4, 5, 6, 7]
+ */
+#define SERIAL_PORT_2 1
+
+//NOTE : Connect Z endstop to Y_MAX
+//dont use Z_MIN and Z_MAX for endstop
+//instead connect Z_MIN (TX1) and Z_MAX(RX1)
+
+#define Y_MAX_PIN          -1
+#define Z_MIN_PIN          15
+#define Z_MAX_PIN          -1
+
+/**
+ * This setting determines the communication speed of the printer.
  *
  * 250000 works in most cases, but you might try a lower speed if
  * you commonly experience drop-outs during host printing.
