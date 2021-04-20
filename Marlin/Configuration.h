@@ -812,7 +812,7 @@
  * Override with M92
  *                                      X, Y, Z, E0 [, E1[, E2...]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 100.00, 81.07, 4136.37, 145.71 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 101.52, 100.09, 4015.89, 153.50 }
 
 /**
  * Default Max Feed Rate (mm/s)
@@ -1063,7 +1063,7 @@
  *     |    [-]    |
  *     O-- FRONT --+
  */
-#define NOZZLE_TO_PROBE_OFFSET { 21.7 , 10.3, -1 }
+#define NOZZLE_TO_PROBE_OFFSET { 21.7 , 10.3, -4 }
 
 // Most probes should stay away from the edges of the bed, but
 // with NOZZLE_AS_PROBE this can be negative for a wider probing area.
@@ -1588,8 +1588,8 @@
 #define Z_SAFE_HOMING
 
 #if ENABLED(Z_SAFE_HOMING)
-  #define Z_SAFE_HOMING_X_POINT 22.9 //  1.2 + NOZZLE_TO_PROBE_OFFSET.X // X point for Z homing
-  #define Z_SAFE_HOMING_Y_POINT 204.3  // 194 + offset Y point for Z homing
+  #define Z_SAFE_HOMING_X_POINT 24.97 //  3.27 + NOZZLE_TO_PROBE_OFFSET.X // X point for Z homing
+  #define Z_SAFE_HOMING_Y_POINT 162.78  // 158.48 + offset Y point for Z homing
 #endif
 
 // Homing speeds (mm/min)
